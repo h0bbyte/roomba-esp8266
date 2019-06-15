@@ -541,6 +541,7 @@ void setup(void)
     }
   }
   //mySerial.begin(115200);  // uncomment this line to use SoftSerial
+  WiFi.mode(WIFI_STA);
   WiFi.begin(ssid.c_str(), password.c_str());
   int i = 0;
   while (WiFi.status() != WL_CONNECTED && i < 31)
