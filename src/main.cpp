@@ -41,9 +41,9 @@ String formatBytes(size_t bytes) {
 }
 
 // WIFI
-String ssid    = "your ssid";
-String password = "password";
-String espName    = "Roombot";
+String ssid     = WIFI_SSID;
+String password = WIFI_PASSWORD;
+String espName  = "Roombot";
 
 // webserver
 ESP8266WebServer  server(80);
