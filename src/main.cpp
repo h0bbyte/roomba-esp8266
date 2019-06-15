@@ -11,6 +11,8 @@
 #include "Base64.h"
 #include <FS.h>
 
+#include "config.h"
+
 String roombotVersion = "0.3.8";
 String WMode = "1";
 

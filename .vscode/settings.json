@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/hobbyte/.platformio/penv/bin:/home/hobbyte/.platformio/penv:/home/hobbyte/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/games",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
